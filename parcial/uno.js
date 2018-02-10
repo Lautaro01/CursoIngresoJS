@@ -1,17 +1,16 @@
 
 function Mostrar()
 {
-    var baseCuadrado;
+    var base;
     var perimetro;
- 
-    
-    baseCuadrado = document.getElementById("laBase").value;
-    baseCuadrado=parseInt(baseCuadrado);
 
+    base = document.getElementById("laBase").value;
+    base = parseInt(base);
 
-    perimetro = baseCuadrado*4;
-    
-    alert(perimetro);
+    perimetro = base*4;
+
+    alert("El perimetro de este cuadrado es " + perimetro + ".");
+
 
 
 }
