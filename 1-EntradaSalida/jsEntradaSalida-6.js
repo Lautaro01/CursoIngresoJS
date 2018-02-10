@@ -3,20 +3,21 @@ transformarlos a enteros (parseInt) y Sumarlos.
 Mostar el resulto por medio de "ALERT"*/
 function sumar()
 {
-    var numerou;
-    var numerod;
-    var resultado;
-
-    numerou = document.getElementById("numeroUno").value; 
-    numerod = document.getElementById("numeroDos").value;
-
-    numerou = parseInt(numerou);
-    numerod = parseInt(numerod); 
-
+    // Crear una variable para el numero uno y dos
+    // tomar el valor de las variables con un ID
+    // trasformarlos a enteros con el parseInt
+    // mostrarlos y sumarlos por Alert
     
-    resultado = numerou + numerod;
+    var numeroUno
+    var numeroDos
+    
+    numeroUno = document.getElementById("numeroUno").value;
+    numeroDos = document.getElementById("numeroDos").value;
 
-    alert("El resulado de su suma es: " + resultado);
+    numeroUno=parseInt(numeroUno);
+    numeroDos=parseInt(numeroDos);
+
+    alert(numeroUno + numeroDos);
 
 
 
