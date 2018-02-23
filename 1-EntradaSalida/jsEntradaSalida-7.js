@@ -4,8 +4,8 @@ mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	var numeroUno
-    var numeroDos
+	var numeroUno;
+    var numeroDos;
     
     numeroUno = document.getElementById("numeroUno").value;
     numeroDos = document.getElementById("numeroDos").value;
@@ -20,8 +20,8 @@ function sumar()
 
 function restar()
 {
-	var numeroUno
-    var numeroDos
+	var numeroUno;
+    var numeroDos;
     
     numeroUno = document.getElementById("numeroUno").value;
     numeroDos = document.getElementById("numeroDos").value;
@@ -34,8 +34,8 @@ function restar()
 
 function multiplicar()
 { 
-	var numeroUno
-    var numeroDos
+	var numeroUno;
+    var numeroDos;
     
     numeroUno = document.getElementById("numeroUno").value;
     numeroDos = document.getElementById("numeroDos").value;
@@ -48,8 +48,8 @@ function multiplicar()
 
 function dividir()
 {
-	var numeroUno
-    var numeroDos
+	var numeroUno;
+    var numeroDos;
     
     numeroUno = document.getElementById("numeroUno").value;
     numeroDos = document.getElementById("numeroDos").value;
@@ -62,8 +62,8 @@ function dividir()
 
 function multiplicar()
 { 
-	var numeroUno
-    var numeroDos
+	var numeroUno;
+    var numeroDos;
     
     numeroUno = document.getElementById("numeroUno").value;
     numeroDos = document.getElementById("numeroDos").value;

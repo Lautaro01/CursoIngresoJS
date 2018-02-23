@@ -8,9 +8,9 @@ function Mostar()
 	//Asignamos un valor a variable por prompt
 	//Para comprar un dato por ID le asignamos el valor variante
 
-	var nombre
-	nombre = prompt("")
-	document.getElementById("elNombre").value = nombre
+	var nombre;
+	nombre = prompt("");
+	document.getElementById("elNombre").value = nombre;
 	
 }
 

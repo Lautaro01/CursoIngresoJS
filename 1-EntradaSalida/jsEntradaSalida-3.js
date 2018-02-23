@@ -5,9 +5,10 @@ function Mostar()
     //Crear la variante nombre
     //Asignar un valor a la variante por ID
     //Mostrar el valor de la variante por "Alert"
+
     var nombre;
     nombre=document.getElementById("elNombre").value;
-    alert(nombre)
+    alert(nombre);
 }
 
 

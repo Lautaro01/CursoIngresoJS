@@ -4,7 +4,7 @@ function Mostar()
 {
    //Tomar un dato con pront
    //Creamos la variante dato
-   //Le agregamos el valor a la vaiente "prompt" para tomar un dato
+   //Le agregamos el valor a la variante "prompt" para tomar un dato
    //Mostramos ese dato por "Alert"
 
    var dato;
