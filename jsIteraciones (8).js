@@ -4,26 +4,28 @@ function Mostrar()
 	var contador=0;
 	var positivo=0;
 	var negativo=1;
-	var numero 
-	
-	var respuesta
+	var numero;
+	var respuesta = "si";
 
-	respuesta = prompt("quiere ingresar un numero?")
-
-	while(respuesta = "si")
+	while(respuesta == "si")
 	{
 		contador ++;
-		numero = prompt("que numero queres, PA? nnnnyaaaaa")
-		numero = parseInt(numero)
+		numero = prompt("Ingrese un numero");
+		numero = parseInt(numero);
 
-		while ( isNaN (numero))
+
+		if(numero > 0)
 		{
-			numero = prompt("ingrese NU ME ROS")
-			numero = parseInt(numero);
+			
 		}
-		
-	}
 
+
+		respuesta = prompt("desea Ingreser otro numero?")
+		
+	
+
+	}
+	
 document.getElementById('suma').value=positivo;
 document.getElementById('producto').value=negativo;
 
