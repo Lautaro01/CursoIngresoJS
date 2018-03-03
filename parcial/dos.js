@@ -1,15 +1,12 @@
 function Mostrar()
 {
   var importe;
-  var iva;
+  var importeFinal;
 
-  importe=prompt("Inserte el precio del producto, a continuacion se mostrata el valor del producto con IVA agregado");
-  importe=parseInt(importe);
+  importe = prompt("Igrese su importe!.");
 
-  iva = importe*1.21;
+  importeFinal = importe*1.21;
 
-  document.getElementById("importeFinal").value = iva; 
-
-
+  document.getElementById("importeFinal").value = importeFinal;
 
 }
